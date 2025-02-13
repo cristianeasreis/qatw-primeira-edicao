@@ -22,7 +22,5 @@ export class LoginPage {
     await this.page.getByRole("button", { name: "Verificar" }).click();
   }
 
-  async obterSaldo() {
-    return this.page.locator("#account-balance");
-  }
+
 }
