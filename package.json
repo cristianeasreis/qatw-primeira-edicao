@@ -21,6 +21,9 @@
     "@types/node": "^22.13.1"
   },
   "dependencies": {
+    "pg": "^8.13.3",
+    "pg-promise": "^11.10.2",
+    "promise": "^8.3.0",
     "qatw-primeira-edicao": "file:"
   }
 }
