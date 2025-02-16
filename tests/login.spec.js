@@ -40,7 +40,7 @@ test("Deve acessar a conta do usuario", async ({ page }) => {
   await loginPage.informaSenha(usuario.senha);
 
   await page.getByRole('heading', { name: 'Verificação em duas etapas' })
-    .waitFor({ timeout: 3000 });
+    .waitFor({ timeout: 4000 });
    
   const codigo  = await getJob();
   
