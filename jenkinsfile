@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Node.js Deps') {
             steps {
-                echo 'npm install'
+                sh 'npm install'
             }
         }
          stage('E2E Tests') {
