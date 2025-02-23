@@ -1,3 +1,4 @@
+
 # Feito com Muito S2 e Muito Café :)
 
 services:
@@ -89,9 +90,9 @@ services:
     environment:
       - REDIS_HOST=paybank-redis                             # Host do Redis
       - REDIS_PORT=6379                                      # Porta do Redis
-      - MAILTRAP_ACCOUNT_ID=3456326                          # ID da conta do Mailtrap
-      - MAILTRAP_TOKEN=3435dce6e3608b28a48d2ad90512b27d      # Token do Mailtrap
-      - MAILTRAP_INBOX_ID=3456326                            # ID da caixa de entrada do Mailtrap
+      - MAILTRAP_ACCOUNT_ID=3449449                          # ID da conta do Mailtrap
+      - MAILTRAP_TOKEN=3aa6e9fc72ac3750b28140a149231005      # Token do Mailtrap
+      - MAILTRAP_INBOX_ID=3449449                            # ID da caixa de entrada do Mailtrap
       - TZ=America/Sao_Paulo                                 # Fuso horário
     restart: unless-stopped
 
@@ -131,7 +132,6 @@ services:
 # Volumes
 volumes:
   jenkins_home:                 # Persistência de dados do Jenkins
-
 
 # Redes
 networks:
